@@ -1,4 +1,3 @@
-//this doc is created in the command line
 var h1 document.querySelector("h1");
 
 hi.style.color = "pink";
