@@ -1,6 +1,6 @@
-var h1 document.querySelector("h1");
+var h1 = document.querySelector("h1");
 
-hi.style.color = "pink";
+h1.style.color = "pink";
 
 var body = document.querySelector("body");
 var isBlue = false;
