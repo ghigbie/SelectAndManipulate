@@ -23,3 +23,19 @@ console.log(tag8);
 var tag9 = document.querySelectorAll("h1");
 
 console.log(tag9);
+
+//four differnt ways to select the first <p> tag
+ var method1 = document.querySelector("p");
+ var method2 = document.getElementById("first");
+ var method3 = document.querySelectorAll(".special");
+ var method4 = document.querySelector("h1 p");
+ var method5 = document.getElementsByTagName("p")[0];
+ var method6 = document.querySelectorAll("p")[0];
+
+ console.log("four differnt ways to select the first <p> tag");
+ console.log(method1);
+ console.log(method2);
+ console.log(method3);
+ console.log(method4);
+ console.log(method5);
+ console.log(method6);
